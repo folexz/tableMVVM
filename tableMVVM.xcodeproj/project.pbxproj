@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		9BF06B7B21932B9A00AC12B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF06B7A21932B9A00AC12B5 /* AppDelegate.swift */; };
-		9BF06B7D21932B9A00AC12B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF06B7C21932B9A00AC12B5 /* ViewController.swift */; };
 		9BF06B8021932B9A00AC12B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF06B7E21932B9A00AC12B5 /* Main.storyboard */; };
 		9BF06B8221932B9C00AC12B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF06B8121932B9C00AC12B5 /* Assets.xcassets */; };
 		9BF06B8521932B9C00AC12B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF06B8321932B9C00AC12B5 /* LaunchScreen.storyboard */; };
+		9BF06B8D21932BB000AC12B5 /* AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF06B8C21932BB000AC12B5 /* AnyView.swift */; };
+		9BF06B9021932C5E00AC12B5 /* Table+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF06B8F21932C5E00AC12B5 /* Table+UITableView.swift */; };
+		9BF06B9221932CBF00AC12B5 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF06B9121932CBF00AC12B5 /* MainTableViewController.swift */; };
+		9BF06B9521932D0800AC12B5 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF06B9321932D0800AC12B5 /* TitleTableViewCell.swift */; };
+		9BF06B9621932D0800AC12B5 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF06B9421932D0800AC12B5 /* TitleTableViewCell.xib */; };
+		9BF06B9821932D1200AC12B5 /* TitleTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF06B9721932D1200AC12B5 /* TitleTableViewCellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BF06B7721932B9A00AC12B5 /* tableMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF06B7A21932B9A00AC12B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BF06B7C21932B9A00AC12B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BF06B7F21932B9A00AC12B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BF06B8121932B9C00AC12B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BF06B8421932B9C00AC12B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BF06B8621932B9C00AC12B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF06B8C21932BB000AC12B5 /* AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyView.swift; sourceTree = "<group>"; };
+		9BF06B8F21932C5E00AC12B5 /* Table+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table+UITableView.swift"; sourceTree = "<group>"; };
+		9BF06B9121932CBF00AC12B5 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		9BF06B9321932D0800AC12B5 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		9BF06B9421932D0800AC12B5 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		9BF06B9721932D1200AC12B5 /* TitleTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		9BF06B7921932B9A00AC12B5 /* tableMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				9BF06B8E21932C4600AC12B5 /* Title Table View Cell */,
+				9BF06B8C21932BB000AC12B5 /* AnyView.swift */,
 				9BF06B7A21932B9A00AC12B5 /* AppDelegate.swift */,
-				9BF06B7C21932B9A00AC12B5 /* ViewController.swift */,
 				9BF06B7E21932B9A00AC12B5 /* Main.storyboard */,
 				9BF06B8121932B9C00AC12B5 /* Assets.xcassets */,
 				9BF06B8321932B9C00AC12B5 /* LaunchScreen.storyboard */,
 				9BF06B8621932B9C00AC12B5 /* Info.plist */,
+				9BF06B8F21932C5E00AC12B5 /* Table+UITableView.swift */,
+				9BF06B9121932CBF00AC12B5 /* MainTableViewController.swift */,
 			);
 			path = tableMVVM;
+			sourceTree = "<group>";
+		};
+		9BF06B8E21932C4600AC12B5 /* Title Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9BF06B9721932D1200AC12B5 /* TitleTableViewCellModel.swift */,
+				9BF06B9321932D0800AC12B5 /* TitleTableViewCell.swift */,
+				9BF06B9421932D0800AC12B5 /* TitleTableViewCell.xib */,
+			);
+			path = "Title Table View Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF06B9621932D0800AC12B5 /* TitleTableViewCell.xib in Resources */,
 				9BF06B8521932B9C00AC12B5 /* LaunchScreen.storyboard in Resources */,
 				9BF06B8221932B9C00AC12B5 /* Assets.xcassets in Resources */,
 				9BF06B8021932B9A00AC12B5 /* Main.storyboard in Resources */,
@@ -135,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF06B7D21932B9A00AC12B5 /* ViewController.swift in Sources */,
+				9BF06B9521932D0800AC12B5 /* TitleTableViewCell.swift in Sources */,
+				9BF06B9221932CBF00AC12B5 /* MainTableViewController.swift in Sources */,
+				9BF06B9821932D1200AC12B5 /* TitleTableViewCellModel.swift in Sources */,
+				9BF06B9021932C5E00AC12B5 /* Table+UITableView.swift in Sources */,
 				9BF06B7B21932B9A00AC12B5 /* AppDelegate.swift in Sources */,
+				9BF06B8D21932BB000AC12B5 /* AnyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
